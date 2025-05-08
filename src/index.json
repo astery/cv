@@ -1,0 +1,133 @@
+{
+  "basics": {
+    "name": "Andrey Akulov",
+    "label": "Elixir developer",
+    "image": "avatar.png",
+    "summary": "I am an elixir developer with experience of building applications in complex domains. I love testing, teaching others, and rant about technologies."
+  },
+  "contacts": [
+    {
+      "label": "andreyshark@gmail.com",
+      "url": "mailto:andreyshark@gmail.com",
+      "icon": "fa-solid fa-envelope"
+    },
+    {
+      "label": "@andrey_akulov",
+      "url": "https://t.me/andrey_akulov",
+      "icon": "fa-brands fa-telegram"
+    },
+    {
+      "label": "+7 (910) 9660445",
+      "url": "tel:+79109660445",
+      "icon": "fa-solid fa-phone"
+    }
+  ],
+  "profiles": [
+    {
+      "network": "github",
+      "username": "astery",
+      "url": "https://github.com/astery",
+      "icon": "fa-brands fa-github"
+    },
+    {
+      "network": "elixirforum",
+      "username": "astery",
+      "url": "https://elixirforum.com/u/astery/summary",
+      "icon": "fa-brands fa-comment"
+    },
+    {
+      "network": "github",
+      "username": "astery",
+      "url": "https://github.com/astery",
+      "icon": "fa-brands fa-github"
+    },
+    {
+      "network": "linkedin",
+      "username": "andrey-akulov",
+      "url": "https://www.linkedin.com/in/andrey-akulov",
+      "icon": "fa-brands fa-linkedin"
+    }
+  ],
+  "jobs": [
+    {
+      "name": "Elonsoft",
+      "position": "Elixir developer",
+      "url": "https://company.com",
+      "duration": "April 2023 - Present (1 year 9 months)",
+      "location": "Russia",
+      "highlights": []
+    },
+    {
+      "name": "BGaming",
+      "position": "Elixir developer",
+      "url": "https://company.com",
+      "duration": "June 2022 - February 2023 (9 months)",
+      "location": "Russia",
+      "highlights": []
+    },
+    {
+      "name": "Hero Labs",
+      "position": "Elixir developer",
+      "url": "https://company.com",
+      "duration": "June 2021 - August 2022 (1 year 3 months)",
+      "location": "Russia",
+      "highlights": []
+    },
+    {
+      "name": "Qvant",
+      "position": "Elixir developer",
+      "url": "https://company.com",
+      "duration": "February 2020 - July 2021 (1 year 6 months)",
+      "location": "Russia",
+      "highlights": []
+    },
+    {
+      "name": "LavkaLavka",
+      "position": "Ruby Developer",
+      "url": "https://company.com",
+      "duration": "April 2019 - October 2019 (7 months)",
+      "location": "Russia",
+      "highlights": []
+    },
+    {
+      "name": "Freelance",
+      "position": "Freelance Developer",
+      "url": "https://company.com",
+      "duration": "August 2018 - March 2019 (8 months)",
+      "location": "Russia",
+      "highlights": []
+    },
+    {
+      "name": "Technologies of electronic goverment",
+      "position": "Elixir developer",
+      "url": "https://company.com",
+      "duration": "July 2016 - March 2018 (1 year 9 months)",
+      "location": "Russia",
+      "highlights": []
+    },
+    {
+      "name": "Ensotech",
+      "position": "Software Engineer",
+      "url": "https://company.com",
+      "duration": "September 2015 - July 2016 (11 months)",
+      "location": "Russia",
+      "highlights": []
+    },
+    {
+      "name": "Garant Plus",
+      "position": "Software Engineer",
+      "url": "https://company.com",
+      "duration": "February 2013 - January 2015 (2 years)",
+      "location": "Russia",
+      "highlights": []
+    },
+    {
+      "name": "SeoGrand",
+      "position": "Software Engineer",
+      "url": "https://company.com",
+      "duration": "September 2011 - January 2013 (1 year 5 months)",
+      "location": "Russia",
+      "highlights": []
+    }
+  ]
+}

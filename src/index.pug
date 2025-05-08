@@ -1,1 +1,24 @@
-img(src="./avatar.png")
+h1 #{basics.name}
+
+h2 #{basics.label}
+
+.flex
+  each contact in contacts
+    a(href=contact.url)
+      i(class=contact.icon)
+      | #{contact.label}
+
+h3 Summary
+
+p #{basics.summary}
+
+h3 Experience
+
+.flex
+  each job in jobs
+    h4 #{job.name}
+    span #{job.position}
+    span #{job.duration}
+    ul
+      each highlight in job.highlights
+        li #{highlight}

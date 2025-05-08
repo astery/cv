@@ -1,6 +1,8 @@
 import { defineConfig } from "vite";
 import vitePugPlugin from "vite-plugin-pug-transformer";
 
+import index_locals from "./src/index.json";
+
 export default defineConfig({
   server: {
     open: "/index.html",
@@ -10,5 +12,5 @@ export default defineConfig({
     emptyOutDir: true,
   },
   root: "src",
-  plugins: [vitePugPlugin()],
+  plugins: [vitePugPlugin({ pugLocals: index_locals })],
 });
