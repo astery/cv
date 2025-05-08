@@ -55,23 +55,33 @@
       "url": "https://company.com",
       "duration": "April 2023 - Present (1 year 9 months)",
       "location": "Russia",
-      "highlights": []
+      "skills": ["elixir", "react"],
+      "highlights": [
+        "Work on investment platform. Made a lot of huge complex refactors and extensions to the platform"
+      ]
     },
     {
       "name": "BGaming",
       "position": "Elixir developer",
       "url": "https://company.com",
       "duration": "June 2022 - February 2023 (9 months)",
-      "location": "Russia",
-      "highlights": []
+      "location": "Austria",
+      "skills": ["elixir", "ruby"],
+      "highlights": [
+        "Involved in the building of an architecture of a new service in the company.",
+        "Created a card game MVP. Responsible for adding new integrations to casinos."
+      ]
     },
     {
       "name": "Hero Labs",
       "position": "Elixir developer",
       "url": "https://company.com",
       "duration": "June 2021 - August 2022 (1 year 3 months)",
-      "location": "Russia",
-      "highlights": []
+      "location": "United Kingdom",
+      "skills": ["elixir", "aws"],
+      "highlights": [
+        "Worked on the backend part. Led implementing an external API. Made a legionella feature intergration."
+      ]
     },
     {
       "name": "Qvant",
@@ -79,7 +89,13 @@
       "url": "https://company.com",
       "duration": "February 2020 - July 2021 (1 year 6 months)",
       "location": "Russia",
-      "highlights": []
+      "skills": ["elixir", "react"],
+      "highlights": [
+        "Worked on the backend of the advertisement platform.",
+        "Integrated a yandex-banner service into the service workflow.",
+        "Added a scheduled banner rotation reports feature.",
+        "Redesigned and refactored billing for mtboxes (mac sniffers)."
+      ]
     },
     {
       "name": "LavkaLavka",
@@ -87,7 +103,10 @@
       "url": "https://company.com",
       "duration": "April 2019 - October 2019 (7 months)",
       "location": "Russia",
-      "highlights": []
+      "skills": ["elixir"],
+      "highlights": [
+        "Revamped the online store. Integrated a coupon and referral system."
+      ]
     },
     {
       "name": "Freelance",
@@ -95,7 +114,10 @@
       "url": "https://company.com",
       "duration": "August 2018 - March 2019 (8 months)",
       "location": "Russia",
-      "highlights": []
+      "skills": ["elixir"],
+      "highlights": [
+        "I've shipped a travel apartment aggregator using elixir, similar travel apartment aggregator with ability to book airline tickets using ruby, a news aggregator site, a plugin to work with email for zendesk, and have done other small contracts."
+      ]
     },
     {
       "name": "Technologies of electronic goverment",
@@ -103,7 +125,13 @@
       "url": "https://company.com",
       "duration": "July 2016 - March 2018 (1 year 9 months)",
       "location": "Russia",
-      "highlights": []
+      "skills": [
+        "elixir",
+        "elixir, graphql, cqrs/es, ruby, react/react native, ansible"
+      ],
+      "highlights": [
+        "Was responsible for the API-backend development. Supervised a small team of colleagues. Developed and documented the architecture of the app."
+      ]
     },
     {
       "name": "Ensotech",
@@ -111,7 +139,14 @@
       "url": "https://company.com",
       "duration": "September 2015 - July 2016 (11 months)",
       "location": "Russia",
-      "highlights": []
+      "skills": ["elixir", "java/android, python/kivi, c#/wpf"],
+      "highlights": [
+        "Developed and supported ESC(electronic speed control) configuration applications:",
+        "- Cross-platform app (windows, android) based on kivi framework (python)",
+        "- Desktop app on WPF (C#) (only support, bugs, minor features)",
+        "- Mobile app on android (native android, java) (it was the replacement of kivi mobile app)",
+        "Released a desktop helicopter app."
+      ]
     },
     {
       "name": "Garant Plus",
@@ -119,7 +154,12 @@
       "url": "https://company.com",
       "duration": "February 2013 - January 2015 (2 years)",
       "location": "Russia",
-      "highlights": []
+      "skills": ["php, asterisk, package assembling"],
+      "highlights": [
+        "Developed a web interface for IP gateway based on asterisk. Assembled rpm/ deb packages.",
+        "Refactored scattered scripts into a solid MVC-application.",
+        "Added multiple features including a dial plan compositor."
+      ]
     },
     {
       "name": "SeoGrand",
@@ -127,7 +167,20 @@
       "url": "https://company.com",
       "duration": "September 2011 - January 2013 (1 year 5 months)",
       "location": "Russia",
-      "highlights": []
+      "skills": ["php/umi, xslt, servers maintenance"],
+      "highlights": [
+        "Was responsible for the sites development and the supporting stage after.",
+        "We built content related and e-commerce sites for small businesses."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Chemical-Mechanical Technical College",
+      "url": "https://ypec.ru/",
+      "course": "Computer Technology/Computer Systems Technology",
+      "location": "Yaroslavl",
+      "duration": "2005 - 2007"
     }
   ]
 }
