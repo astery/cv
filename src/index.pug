@@ -1,24 +1,31 @@
-h1 #{basics.name}
+header.flex.justify-between
+  div
+    h1.text-4xl.mb-2 #{basics.name}
+    h2 #{basics.label}
 
-h2 #{basics.label}
+  ul.flex.flex-col
+    each contact in contacts
+      li
+        a(href=contact.url)
+          i(class=contact.icon)
+          | #{contact.label}
 
-.flex
-  each contact in contacts
-    a(href=contact.url)
-      i(class=contact.icon)
-      | #{contact.label}
+section.mt-10
+  h3.text-2xl.uppercase.tracking-widest.mb-4 Summary
 
-h3 Summary
+  p #{basics.summary}
 
-p #{basics.summary}
+section.mt-10
+  h3.text-2xl.uppercase.tracking-widest.mb-4 Experience
 
-h3 Experience
-
-.flex
-  each job in jobs
-    h4 #{job.name}
-    span #{job.position}
-    span #{job.duration}
-    ul
-      each highlight in job.highlights
-        li #{highlight}
+  .jobs
+    each job in jobs
+      .mb-4
+        .flex.justify-between
+          .flex.leading-7.gap-x-2
+            h4.text-lg.font-medium #{job.name}
+            span #{job.position}
+          span #{job.duration}
+        ul
+          each highlight in job.highlights
+            li #{highlight}

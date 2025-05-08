@@ -53,7 +53,8 @@
       "name": "Elonsoft",
       "position": "Elixir developer",
       "url": "https://company.com",
-      "duration": "April 2023 - Present (1 year 9 months)",
+      "duration": "April 2023 - Present",
+      "longevity": "(1 year 9 months)",
       "location": "Russia",
       "skills": ["elixir", "react"],
       "highlights": [
@@ -64,7 +65,8 @@
       "name": "BGaming",
       "position": "Elixir developer",
       "url": "https://company.com",
-      "duration": "June 2022 - February 2023 (9 months)",
+      "duration": "June 2022 - February 2023",
+      "longevity": "(9 months)",
       "location": "Austria",
       "skills": ["elixir", "ruby"],
       "highlights": [
@@ -76,7 +78,8 @@
       "name": "Hero Labs",
       "position": "Elixir developer",
       "url": "https://company.com",
-      "duration": "June 2021 - August 2022 (1 year 3 months)",
+      "duration": "June 2021 - August 2022",
+      "longevity": "(1 year 3 months)",
       "location": "United Kingdom",
       "skills": ["elixir", "aws"],
       "highlights": [
@@ -87,7 +90,8 @@
       "name": "Qvant",
       "position": "Elixir developer",
       "url": "https://company.com",
-      "duration": "February 2020 - July 2021 (1 year 6 months)",
+      "duration": "February 2020 - July 2021",
+      "longevity": "(1 year 6 months)",
       "location": "Russia",
       "skills": ["elixir", "react"],
       "highlights": [
@@ -101,7 +105,8 @@
       "name": "LavkaLavka",
       "position": "Ruby Developer",
       "url": "https://company.com",
-      "duration": "April 2019 - October 2019 (7 months)",
+      "duration": "April 2019 - October 2019",
+      "longevity": "(7 months)",
       "location": "Russia",
       "skills": ["elixir"],
       "highlights": [
@@ -112,7 +117,8 @@
       "name": "Freelance",
       "position": "Freelance Developer",
       "url": "https://company.com",
-      "duration": "August 2018 - March 2019 (8 months)",
+      "duration": "August 2018 - March 2019",
+      "longevity": "(8 months)",
       "location": "Russia",
       "skills": ["elixir"],
       "highlights": [
@@ -123,7 +129,8 @@
       "name": "Technologies of electronic goverment",
       "position": "Elixir developer",
       "url": "https://company.com",
-      "duration": "July 2016 - March 2018 (1 year 9 months)",
+      "duration": "July 2016 - March 2018",
+      "longevity": "(1 year 9 months)",
       "location": "Russia",
       "skills": [
         "elixir",
@@ -137,7 +144,8 @@
       "name": "Ensotech",
       "position": "Software Engineer",
       "url": "https://company.com",
-      "duration": "September 2015 - July 2016 (11 months)",
+      "duration": "September 2015 - July 2016",
+      "longevity": "(11 months)",
       "location": "Russia",
       "skills": ["elixir", "java/android, python/kivi, c#/wpf"],
       "highlights": [
@@ -152,7 +160,8 @@
       "name": "Garant Plus",
       "position": "Software Engineer",
       "url": "https://company.com",
-      "duration": "February 2013 - January 2015 (2 years)",
+      "duration": "February 2013 - January 2015",
+      "longevity": "(2 years)",
       "location": "Russia",
       "skills": ["php, asterisk, package assembling"],
       "highlights": [
@@ -165,7 +174,8 @@
       "name": "SeoGrand",
       "position": "Software Engineer",
       "url": "https://company.com",
-      "duration": "September 2011 - January 2013 (1 year 5 months)",
+      "duration": "September 2011 - January 2013",
+      "longevity": "(1 year 5 months)",
       "location": "Russia",
       "skills": ["php/umi, xslt, servers maintenance"],
       "highlights": [
