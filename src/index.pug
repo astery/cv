@@ -31,6 +31,8 @@ section.mt-10
             span.inline-block.mx-2 &mdash;
             span #{job.finished}
 
-        ul
-          each highlight in job.highlights
-            li #{highlight}
+        ul.text-justify
+          each highlight, idx in job.highlights
+            | #{highlight}
+            if idx < job.highlights.length - 1
+              span.font-thin.mx-4 |
