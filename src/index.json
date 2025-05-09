@@ -60,11 +60,11 @@
       "skills": ["elixir", "react"],
       "highlights": [
         "Was responsible for developing the investment platform.",
-        "Implemented new key entities and replaced some of the old ones to meet new Central Bank requirements for document management, enabling rollback to the old functionality without data loss.",
+        "Implemented new key entities and replaced some of the old ones to meet <b>new Central Bank requirements</b> for document management, enabling rollback to the old functionality <b>without data loss</b>.",
         "Restructured the project organization to establish a clear link between business feature descriptions and the modules implementing them.",
-        "Solved the problem of document loss on a third-party service by reworking the simple “latest state” storage into comprehensive event-based document history, enabling full recovery in case of loss.",
+        "Solved the problem of document loss on a third-party service by reworking the simple “latest state” storage into comprehensive <b>event-based document history</b>, enabling full recovery in case of loss.",
         "Mentored a junior developer, assisting with learning new tools and best practices in team development.",
-        "Identified and successfully prevented a social engineering attack; introduced two-factor authentication to improve platform security."
+        "Identified and successfully <b>prevented a social engineering attack</b>; introduced two-factor authentication to improve platform security."
       ]
     },
     {

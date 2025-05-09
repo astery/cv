@@ -13,3 +13,9 @@
 
   --color-transparent-white: rgba(255, 255, 255, 0.87);
 }
+
+@layer base {
+  b {
+    font-weight: 500;
+  }
+}

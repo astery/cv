@@ -33,6 +33,6 @@ section.mt-10
 
         ul.text-justify
           each highlight, idx in job.highlights
-            | #{highlight}
+            | !{highlight}
             if idx < job.highlights.length - 1
               span.font-thin.mx-4 |
