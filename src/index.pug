@@ -16,6 +16,17 @@ section.mt-10
   p #{basics.summary}
 
 section.mt-10
+  h3.text-2xl.uppercase.tracking-widest.mb-4 Skills
+
+  ul.text-justify
+    each skill_set in skills
+      li.flex.justify-between
+        each skill, idx in skill_set
+          | #{skill}
+          if idx < skill_set.length - 1
+            span.font-thin.mx-4 |
+
+section.mt-10
   h3.text-2xl.uppercase.tracking-widest.mb-4 Experience
 
   .jobs
@@ -31,7 +42,7 @@ section.mt-10
             span.inline-block.mx-2 &mdash;
             span #{job.finished}
 
-        ul.text-justify
+        .text-justify
           each highlight, idx in job.highlights
             | !{highlight}
             if idx < job.highlights.length - 1
