@@ -26,7 +26,11 @@ section.mt-10
             h4.text-lg.font-medium #{job.name}
             span •
             span.text-gray-400 #{job.position}
-          span #{job.duration}
+          div(style="font-feature-settings:'tnum'")
+            span #{job.started}
+            span.inline-block.mx-2 &mdash;
+            span #{job.finished}
+
         ul
           each highlight in job.highlights
             li #{highlight}
