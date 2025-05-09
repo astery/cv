@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "tailwindcss/index.css";
+
+@theme {
+  --font-inter: Inter, Avenir, Helvetica, Arial, sans-serif;
+  --font-montserrat: Montserrat, sans-serif;
+
+  --drop-shadow-logo: 0 0 2em #646cffaa;
+  --drop-shadow-logo-tw: 0 0 2em #38bdf8aa;
+
+  --height-18: 4.5rem;
+
+  --color-transparent-white: rgba(255, 255, 255, 0.87);
+}
