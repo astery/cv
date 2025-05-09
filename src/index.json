@@ -124,7 +124,8 @@
       "skills": ["elixir"],
       "highlights": [
         "Revamped the online store. Integrated a coupon and referral system."
-      ]
+      ],
+      "page_break": true
     },
     {
       "name": "Freelance",

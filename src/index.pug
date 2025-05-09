@@ -23,7 +23,7 @@ section.mt-10
       .mb-4
         .flex.justify-between
           .flex.leading-7.gap-x-2
-            h4.text-lg.font-medium #{job.name}
+            h4(class="text-lg font-medium print:max-w-[15rem]") #{job.name}
             span •
             span.text-gray-400 #{job.position}
           div(style="font-feature-settings:'tnum'")
@@ -36,3 +36,6 @@ section.mt-10
             | !{highlight}
             if idx < job.highlights.length - 1
               span.font-thin.mx-4 |
+
+      if job["page_break"]
+        .break-after-page
