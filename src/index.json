@@ -59,7 +59,12 @@
       "location": "Russia",
       "skills": ["elixir", "react"],
       "highlights": [
-        "Work on investment platform. Made a lot of huge complex refactors and extensions to the platform"
+        "Was responsible for developing the investment platform.",
+        "Implemented new key entities and replaced some of the old ones to meet new Central Bank requirements for document management, enabling rollback to the old functionality without data loss.",
+        "Restructured the project organization to establish a clear link between business feature descriptions and the modules implementing them.",
+        "Solved the problem of document loss on a third-party service by reworking the simple “latest state” storage into comprehensive event-based document history, enabling full recovery in case of loss.",
+        "Mentored a junior developer, assisting with learning new tools and best practices in team development.",
+        "Identified and successfully prevented a social engineering attack; introduced two-factor authentication to improve platform security."
       ]
     },
     {
@@ -73,7 +78,8 @@
       "skills": ["elixir", "ruby"],
       "highlights": [
         "Involved in the building of an architecture of a new service in the company.",
-        "Created a card game MVP. Responsible for adding new integrations to casinos."
+        "Created a card game MVP.",
+        "Was responsible for adding new integrations to casinos."
       ]
     },
     {
@@ -86,7 +92,9 @@
       "location": "United Kingdom",
       "skills": ["elixir", "aws"],
       "highlights": [
-        "Worked on the backend part. Led implementing an external API. Made a legionella feature intergration."
+        "Worked on the backend part.",
+        "Led implementing an external API.",
+        "Made a legionella feature intergration."
       ]
     },
     {
@@ -144,7 +152,9 @@
         "elixir, graphql, cqrs/es, ruby, react/react native, ansible"
       ],
       "highlights": [
-        "Was responsible for the API-backend development. Supervised a small team of colleagues. Developed and documented the architecture of the app."
+        "Was responsible for the API-backend development.",
+        "Supervised a small team of colleagues.",
+        "Developed and documented the architecture of the app."
       ]
     },
     {
@@ -157,10 +167,10 @@
       "location": "Russia",
       "skills": ["elixir", "java/android, python/kivi, c#/wpf"],
       "highlights": [
-        "Developed and supported ESC(electronic speed control) configuration applications:",
-        "- Cross-platform app (windows, android) based on kivi framework (python)",
-        "- Desktop app on WPF (C#) (only support, bugs, minor features)",
-        "- Mobile app on android (native android, java) (it was the replacement of kivi mobile app)",
+        "Developed and supported ESC(electronic speed control) configuration applications.",
+        "Developed cross-platform app (windows, android) based on kivi framework (python)",
+        "Fixed bugs and added minor features for desktop app built on WPF (C#)",
+        "Created mobile app on android (native android, java) (it was the replacement of kivi mobile app)",
         "Released a desktop helicopter app."
       ]
     },
@@ -174,7 +184,8 @@
       "location": "Russia",
       "skills": ["php, asterisk, package assembling"],
       "highlights": [
-        "Developed a web interface for IP gateway based on asterisk. Assembled rpm/ deb packages.",
+        "Developed a web interface for IP gateway based on asterisk.",
+        "Assembled rpm/deb packages.",
         "Refactored scattered scripts into a solid MVC-application.",
         "Added multiple features including a dial plan compositor."
       ]
