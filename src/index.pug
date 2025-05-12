@@ -20,9 +20,11 @@ section.mt-10
 
   ul
     each skill, idx in skills
-      | #{skill}
+      - var skill_nb = skill.replace(/\s/g, "&nbsp;")
+      span !{skill_nb}
       if idx < skills.length - 1
-        span.font-thin.mx-4 |
+        span(aria-hidden="true" class="font-thin mx-3") &nbsp;|
+        span &#32;
 
 section.mt-10
   h3.text-2xl.uppercase.tracking-widest.mb-4 Experience
@@ -44,7 +46,8 @@ section.mt-10
           each highlight, idx in job.highlights
             | !{highlight}
             if idx < job.highlights.length - 1
-              span.font-thin.mx-4 |
+              span(aria-hidden="true" class="font-thin mx-3") &nbsp;|
+              span &#32;
 
       if job["page_break"]
         .break-after-page
