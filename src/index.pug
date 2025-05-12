@@ -18,13 +18,11 @@ section.mt-10
 section.mt-10
   h3.text-2xl.uppercase.tracking-widest.mb-4 Skills
 
-  ul.text-justify
-    each skill_set in skills
-      li.flex.justify-between
-        each skill, idx in skill_set
-          | #{skill}
-          if idx < skill_set.length - 1
-            span.font-thin.mx-4 |
+  ul
+    each skill, idx in skills
+      | #{skill}
+      if idx < skills.length - 1
+        span.font-thin.mx-4 |
 
 section.mt-10
   h3.text-2xl.uppercase.tracking-widest.mb-4 Experience

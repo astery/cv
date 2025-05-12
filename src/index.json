@@ -49,15 +49,30 @@
     }
   ],
   "skills": [
-    ["Elixir", "Ruby", "PostgreSQL", "LiveView", "GraphQL", "RabbitMQ"],
-    [
-      "Test Driven Development",
-      "CQRS",
-      "Event sourcing",
-      "Domain Driven Design"
-    ],
-    ["Javascript", "HTML", "CSS/SCSS/SASS", "Tailwind", "React", "ReactNative"],
-    ["Linux", "Guix", "Emacs", "Lisp", "Bash", "C/C++", "Python", "Docker"]
+    "Elixir",
+    "Ruby",
+    "PostgreSQL",
+    "LiveView",
+    "GraphQL",
+    "RabbitMQ",
+    "Javascript",
+    "HTML",
+    "CSS/SCSS",
+    "Tailwind",
+    "React",
+    "ReactNative",
+    "Linux",
+    "Guix",
+    "Emacs",
+    "Lisp",
+    "Bash",
+    "C/C++",
+    "Python",
+    "Docker",
+    "Test Driven Development",
+    "Domain Driven Design",
+    "CQRS",
+    "Event sourcing"
   ],
   "jobs": [
     {
