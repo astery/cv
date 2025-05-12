@@ -36,10 +36,10 @@
       "icon": "fa-brands fa-comment"
     },
     {
-      "network": "github",
+      "network": "stackoverflow",
       "username": "astery",
-      "url": "https://github.com/astery",
-      "icon": "fa-brands fa-github"
+      "url": "https://stackoverflow.com/users/1151553/astery",
+      "icon": "fa-brands fa-stack-overflow"
     },
     {
       "network": "linkedin",
