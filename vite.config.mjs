@@ -13,4 +13,5 @@ export default defineConfig({
   },
   root: "src",
   plugins: [vitePugPlugin({ pugLocals: index_locals })],
+  base: "/cv/",
 });
