@@ -106,8 +106,7 @@
         "Involved in the building of an architecture of a new service in the company.",
         "Created a card game MVP.",
         "Was responsible for adding new integrations to casinos."
-      ],
-      "page_break": true
+      ]
     },
     {
       "name": "Hero Labs",
@@ -122,7 +121,8 @@
         "Worked on the backend part.",
         "Led implementing an external API.",
         "Made a legionella feature intergration."
-      ]
+      ],
+      "page_break": true
     },
     {
       "name": "Qvant",
