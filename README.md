@@ -1,26 +1,14 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f4e57968-eb20-4de8-91c4-001474804566/deploy-status)](https://app.netlify.com/sites/frolicking-kitten-1d5828/deploys)
-
-Vite TailwindCSS NoJS Starter
+Resume generator
 ====
-Scaffold a new project with Vite and Tailwind CSS preconfigured with ease.
-
-## Motivation
-
-Most existing Vite + Tailwind starters are aimed to work with a JS framework, e.g Vue or React.
-An important difference of this starter template is that **the build stage does not involve any JavaScript, just pure HTML/CSS compilation**.
-
-## When to use
-
-1. When you need to develop a pure HTML/CSS prototype.
-2. When you import a standalone version of a JS framework right from HTML.
+Simple HTML resume template with considerations of PDF printing
 
 ## How to use
 
-```bash
-npx degit kometolabs/vite-tailwind-nojs-starter my-tailwind-app
-cd my-tailwind-app
-pnpm i || yarn || npm i
-pnpm run dev || yarn dev || npm run dev
-```
+1. Fork repository
+2. Enable [github pages](https://github.com/sitek94/vite-deploy-demo?tab=readme-ov-file#enable-github-pages)
+3. Update `index.json` and `index.pug` for your needs
+4. Update `vite.config.mjs` `base` param if your repository name differs from `cv`
+4. Push changes to master and wait for github actions apply
+5. Open `<github_name>.github.io/cv/` in chrome (firefox does not put text into document), press `ctrl+p` to open print dialog, choose `Save as PDF`, check `Backround graphics` box in `More settings` (that embeds html fonts into pdf) and press `Save`
 
-**Happy coding!**
+**Enjoy your html resume in pdf format**
