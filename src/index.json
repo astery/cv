@@ -106,7 +106,8 @@
         "Involved in the building of an architecture of a new service in the company.",
         "Created a card game MVP.",
         "Was responsible for adding new integrations to casinos."
-      ]
+      ],
+      "page_break": true
     },
     {
       "name": "Hero Labs",
@@ -150,8 +151,7 @@
       "skills": ["elixir"],
       "highlights": [
         "Revamped the online store. Integrated a coupon and referral system."
-      ],
-      "page_break": true
+      ]
     },
     {
       "name": "Freelance",
