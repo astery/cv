@@ -1,6 +1,6 @@
 Resume generator
 ====
-Simple HTML resume template with considerations of PDF printing
+Simple HTML resume template with considerations for PDF printing
 
 ## How to use
 
